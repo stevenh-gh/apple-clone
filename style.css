@@ -14,6 +14,11 @@ header {
 
 /* ============================== */
 
+header {
+    width: 1440px;
+    height: 538px;
+}
+
 header h1 {
     width: 980px;
     height: 100px;
