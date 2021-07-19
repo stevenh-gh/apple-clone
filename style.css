@@ -11,6 +11,10 @@ header {
     background-color: aquamarine;
 }
 
+ul {
+    background-color: cadetblue;
+}
+
 
 /* ============================== */
 
@@ -39,4 +43,8 @@ header h3 {
 header h3 img {
     width: 980px;
     height: 64px;
+}
+
+li {
+    display: inline-block;
 }
