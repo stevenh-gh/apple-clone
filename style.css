@@ -20,11 +20,11 @@ ul {
 
 .container {
     margin: 0 auto;
-    width: 1468px;
+    width: 1428px;
 }
 
 header {
-    width: 1468px;
+    /* width: 1428px; */
     height: 538px;
 }
 
@@ -59,4 +59,9 @@ header h3 {
 
 li {
     display: inline-block;
+}
+
+li img {
+    width: 354px;
+    height: 200px
 }
