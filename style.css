@@ -99,3 +99,33 @@ li img {
     width: 354px;
     height: 200px
 }
+
+footer {
+    width: 980px;
+    margin: auto;
+    padding: 10px 0 26px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    color: #6e6e6e;
+    line-height: 1.2;
+    font-size: 10px;
+}
+
+footer div {
+    padding: 15px 0 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    height: 16px;
+    width: 16px;
+}
+
+footer ul {
+    display: inline-block;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
