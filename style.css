@@ -121,6 +121,17 @@ footer div {
 .flex-container {
     display: flex;
     justify-content: space-between;
+    height: 27px;
+}
+
+.flex-container div:nth-child(1) {
+    position: relative;
+    bottom: 12.5px;
+}
+
+.flex-container div:nth-child(2) {
+    position: relative;
+    bottom: 19px;
 }
 
 footer img {
