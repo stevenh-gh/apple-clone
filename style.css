@@ -133,3 +133,11 @@ footer ul {
     text-transform: capitalize;
     vertical-align: middle;
 }
+
+footer li::after {
+    content: " |";
+}
+
+footer li:last-of-type::after {
+    content: "";
+}
