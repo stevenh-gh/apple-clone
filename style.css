@@ -73,6 +73,10 @@ header h3 {
     text-align: center;
 }
 
+.header-images {
+    padding: 50px 0;
+}
+
 header nav {
     width: 980px;
     height: 36px;
@@ -117,8 +121,10 @@ nav li:last-of-type {
 
 nav li input {
     display: block;
-    width: 66px;
-    height: 16px;
+    /* width: 66px; */
+    /* height: 16px; */
+    width: 106px;
+    height: 19px;
     padding: 2px 18px 1px 22px;
     position: relative;
     top: 5px;
