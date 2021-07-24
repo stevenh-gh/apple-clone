@@ -151,6 +151,11 @@ footer ul {
     vertical-align: middle;
 }
 
+footer li:last-of-type img {
+    position: relative;
+    top: 4px;
+}
+
 footer li::after {
     content: " |";
 }
