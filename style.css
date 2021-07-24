@@ -46,14 +46,20 @@ header h1 img {
 }
 
 header h3 {
-    overflow: hidden;
-    width: 980px;
-    height: 34px;
+    /* overflow: hidden; */
+    /* width: 980px; */
+    /* height: 34px; */
 }
 
 header h3 img {
     width: 980px;
-    height: 64px;
+    height: 32px;
+    object-fit: cover;
+    object-position: top;
+}
+
+header h3 img:hover {
+    object-position: bottom;
 }
 
 header h1,
