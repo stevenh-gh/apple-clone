@@ -122,6 +122,20 @@ nav li:last-of-type {
     border-right: none;
 }
 
+nav li:first-of-type span {
+    opacity: 0;
+}
+
+nav li:first-of-type img {
+    position: relative;
+    bottom: 15px;
+    right: 28px;
+    object-fit: cover;
+    height: 30px;
+    width: 157px;
+    object-position: top;
+}
+
 nav li:last-of-type img {
     position: relative;
     left: 17px;
