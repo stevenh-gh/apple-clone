@@ -4,31 +4,12 @@
     padding: 0;
 }
 
-
-/* BACKGROUND COLORS FOR TESTING  */
-
-header {
-    background-color: aquamarine;
-}
-
-nav {
-    background-color: bisque;
-}
-
-nav ul {
-    /* background-color: cornflowerblue; */
-}
-
-
-/* ============================== */
-
 .container {
     margin: 0 auto;
     width: 1428px;
 }
 
 header {
-    /* width: 1428px; */
     height: 538px;
     background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
     background-size: 1440px 1315px;
@@ -51,9 +32,6 @@ header h1 img {
 }
 
 header h3 {
-    /* overflow: hidden; */
-    /* width: 980px; */
-    /* height: 34px; */
     padding-top: 15px;
 }
 
@@ -86,7 +64,6 @@ header nav {
     margin: auto;
     position: relative;
     top: 18px;
-    /* font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; */
 }
 
 nav {
@@ -163,8 +140,6 @@ nav li:last-of-type {
 
 nav li input {
     display: block;
-    /* width: 66px; */
-    /* height: 16px; */
     width: 106px;
     height: 19px;
     padding: 2px 18px 1px 22px;
@@ -179,12 +154,6 @@ nav li input {
 nav li input:focus {
     outline: none;
 }
-
-
-/* nav li:first-of-type span {
-    background: url(https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png) no-repeat 50% 0;
-    margin: 3px auto;
-} */
 
 aside {
     margin-top: 3px;
