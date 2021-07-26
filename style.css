@@ -120,6 +120,16 @@ nav li:last-of-type {
     border-right: none;
 }
 
+nav li:last-of-type img {
+    position: relative;
+    left: 17px;
+    bottom: 7px;
+    height: 15px;
+    width: 15px;
+    object-fit: cover;
+    object-position: 2px 0;
+}
+
 nav li span {
     display: block;
     text-align: center;
@@ -142,6 +152,8 @@ nav li input {
     top: 8px;
     text-align: center;
     margin: auto;
+    border-radius: 12px;
+    background: transparent;
 }
 
 
