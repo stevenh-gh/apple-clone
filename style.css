@@ -102,17 +102,29 @@ nav ul {
 }
 
 nav li {
+    position: relative;
+    bottom: 3px;
     display: block;
     width: 105.63px;
     height: 36px;
     margin: 3px 0;
+    border-right: 1px solid #484848;
+}
+
+nav li:not(:last-of-type):hover {
+    background-color: rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+nav li:last-of-type {
+    border-right: none;
 }
 
 nav li span {
     display: block;
     text-align: center;
     position: relative;
-    top: 5px;
+    top: 8px;
 }
 
 nav li:last-of-type {
@@ -127,7 +139,7 @@ nav li input {
     height: 19px;
     padding: 2px 18px 1px 22px;
     position: relative;
-    top: 5px;
+    top: 8px;
     text-align: center;
     margin: auto;
 }
